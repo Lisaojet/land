@@ -56,8 +56,6 @@ body {
     }
 }
 
-/* first */
-
 .container {
     display: flex;
     justify-content: center;
@@ -138,10 +136,6 @@ body {
     }
 }
 
-
-
-/* Middle Section */
-
 #second {
     margin: 10% auto;
 }
@@ -196,8 +190,6 @@ body {
         margin: 10% auto 40% auto;
     }
 }
-
-/* Foot */
 
 .ready {
     box-sizing: border-box;
@@ -349,7 +341,7 @@ body {
         width: 80%;
         padding: 1rem;
         position: absolute;
-        top: -15%;
+        top: -8%;
         left: 10%;
         transform: translate(-50, -50);
     }
