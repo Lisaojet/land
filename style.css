@@ -28,7 +28,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     cursor: pointer;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .nav-btn:hover {
