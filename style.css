@@ -108,11 +108,17 @@ body {
     width: 100%;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1440px) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
+        display: flex;
     }
 
+    .nav-flex {
+        margin-top: 10px;
+        padding: 1rem;
+    }
+    
     .item {
         padding: 1rem;
         flex: 100%;
@@ -351,5 +357,10 @@ body {
     .fbtn {
         margin: 0.5rem;
         padding: 1rem 3rem;
+    }
+    
+    .nav-flex {
+        margin-top: 10px;
+        padding: 1rem;
     }
 }
