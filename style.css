@@ -335,7 +335,7 @@ body {
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 375px) {
     .ready {
         background: ready;
         margin: 0 auto;
@@ -362,5 +362,14 @@ body {
     .nav-flex {
         margin-top: 10px;
         padding: 1rem;
+    }
+    
+    .item  {
+        width: 80%;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
     }
 }
